@@ -1,0 +1,19 @@
+Welcome Screen - click on the Particle Icon
+particle commands: Ctl + shft + P, start typing particle
+Command Palette reference: 		    
+ https://docs.particle.io/tutorials/developer-tools/workbench/#command-palette-reference
+
+Split Editor: Ctrl+\
+IntelliSense: Ctrl+Spacebar
+CodeFolding: Ctrl+Shft+[ or ]
+Line Actions:
+	Copy Line: shft+alt+ up of down key
+	Move line: alt + up of down key
+	Delete line: ctrl + chft + K	
+
+https://community.particle.io/t/intellisense-report-issues-here/48734	
+
+Terminal: Kill the active terminal instance
+
+https://code.visualstudio.com/docs/editor/codebasics
+

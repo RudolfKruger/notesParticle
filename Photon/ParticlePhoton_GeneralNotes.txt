@@ -1,0 +1,72 @@
+https://docs.particle.io/datasheets/accessories/legacy-accessories/#power-shield
+
+https://docs.particle.io/
+https://docs.particle.io/quickstart/photon/, 
+
+SET UP THE PHOTON
+======================
+1)Click "Set up your Photon"
+2) Download the setup file
+3) Open the HTML file
+4) Connect to the Photon via the laptop's WiFi
+5) Type in the WiFi SSID and password
+6) Name the Photon
+7) It should breathe Cyan - you're done.
+
+WEB IDE
+=======
+https://build.particle.io/build/new
+Click on the "Devices Icon"
+Click the > arrow and check the Device OS
+Create any app and flash it, it will simultaneously update the OS if necessary.
+
+Console
+=======
+https://console.particle.io/devices
+Select the device
+
+Managing Device OS:
+====================
+https://docs.particle.io/tutorials/device-os/device-os/#managing-device-os
+
+DFU Mode (Device Firmware Upgrade)
+==================================
+Hold down BOTH buttons
+Release only the RESET button, while holding down the SETUP button.
+Wait for the LED to start flashing yellow (it will flash magenta first)
+Release the SETUP button
+
+PARTICLE CLI for a terminal
+===========================
+https://docs.particle.io/tutorials/device-os/usb-serial/#using-a-terminal-program
+A common way to view debug serial messages is the Particle CLI. Note that the CLI only reads serial messages,
+it is strictly a serial monitor, and you can't type things to the Photon/Electron.
+Command prompt: particle serial monitor or particle serial monitor --follow
+Application code for terminal debugging: https://docs.particle.io/tutorials/device-os/usb-serial/#user-firmware
+
+Using regular serial port for debugging: 
+=======================================
+https://docs.particle.io/tutorials/device-os/usb-serial/#user-firmware
+
+
+LED Indicators:
+===============
+- Wi-Fi Module is on but Not Connected: breathing dark blue and not cyan.
+- Cloud Not Connected: When your device is connected to Wi-Fi but not to the cloud, it will be breathing green.
+- Rainbows/Nyan: Using the Signal option in the Web IDE, or the particle cloud nyan CLI command, you can have a device's status LED display a rainbow pattern. This is handy if you have multiple devices nearby and are not sure which one is which.
+- Red Blink Basic Errors: https://docs.particle.io/tutorials/device-os/led/photon/#red-blink-basic-errors
+- Safe Mode: breathing magenta 
+	To put your device in Safe Mode:
+		Hold down BOTH buttons
+		Release only the RESET button, while holding down the SETUP button.
+		Wait for the LED to start blinking magenta
+		Release the SETUP button
+
+- Wi-Fi Network Reset: To erase the stored Wi-Fi networks on your device, hold the SETUP button blinks dark blue, then continue to hold it down for about ten seconds longer, until the RGB LED blinks blue rapidly, then release.
+- Listening Mode: blinking blue, When your device is in Listening Mode, it is waiting for your input to connect to Wi-Fi. Your device needs to be in Listening Mode in order to begin connecting with the Mobile App or over USB. To put your device in Listening Mode, hold the SETUP button for three seconds, until the RGB LED begins blinking blue.
+-Connecting to the Cloud: rapidly blink cyan
+-Looking For Internet: If your device is blinking green, it is trying to connect to Wi-Fi.
+-OTA Firmware Update: blinking magenta
+- Connected: breathing cyan
+
+https://patrick.ble.si/particle-manual-wifi-creds

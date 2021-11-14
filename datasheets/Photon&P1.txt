@@ -1,0 +1,2 @@
+https://github.com/particle-iot/docs/issues/19
+https://docs.particle.io/datasheets/wi-fi/p1-datasheet/
