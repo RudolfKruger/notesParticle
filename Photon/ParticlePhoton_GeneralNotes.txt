@@ -70,3 +70,11 @@ LED Indicators:
 - Connected: breathing cyan
 
 https://patrick.ble.si/particle-manual-wifi-creds
+
+https://docs.particle.io/tutorials/device-os/led/photon/
+https://docs.particle.io/cards/firmware/input-output/input-output/
+https://docs.particle.io/tutorials/device-os/device-os/
+https://console.particle.io/devices
+https://toglefritz.com/re-flash-tinker-to-reset-your-particle-photon/
+https://docs.particle.io/tutorials/device-os/usb-serial/
+https://community.particle.io/t/dead-photon-with-led-d7-on/19921/11
