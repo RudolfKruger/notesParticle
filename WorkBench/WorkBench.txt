@@ -1,3 +1,10 @@
+Installation:
+=============
+See https://docs.particle.io/quickstart/workbench/
+Download the installer and run it.
+
+
+
 Welcome Screen - click on the Particle Icon
 particle commands: Ctl + shft + P, start typing particle
 Command Palette reference: 		    
