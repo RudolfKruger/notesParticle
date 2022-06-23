@@ -1,5 +1,4 @@
-Installation:
-=============
+# Installation:
 See https://docs.particle.io/quickstart/workbench/
 Download the installer and run it.
 
@@ -23,5 +22,39 @@ https://community.particle.io/t/intellisense-report-issues-here/48734
 Terminal: Kill the active terminal instance
 
 https://code.visualstudio.com/docs/editor/codebasics
+
+Starting a new project
+======================
+1) open VSCode, click on the Particle icon
+2) Ctrl+Shift+p, type particle, choose Start New Project, select parent folder, type a project name.
+3) The software code is under src, in <project_name>.ino
+4) Dependencies:
+	in project.properties, e.g. the following were used with the Photon
+		dependencies.photon-vbat=0.0.3
+		dependencies.SparkFunMAX17043=1.1.2
+5) https://docs.particle.io/reference/firmware/
+6) Add libraries by Ctrl+Shft+p and selecting "particle library add"
+7) https://docs.particle.io/guide/tools-and-features/libraries/
+8) Set up the DeviceOS and target device: Particle: Configure Workspace for Device.
+9) Make sure the local compiler is installed if you're not going tocloud compile:
+	Particle: Install Local Compiler.
+9b) Install the Particle CLI (which also installs the Particle USB drivers)
+9c) Run "particle setup" from a cmd terminal
+9d) Make sure you are logged in on VS Code: Particle: Login	 -> important as this gives you the access token you need.
+10) Compile and  Flash:
+	Particle: Flash application (local)
+	Particle: Flash application for debug (local)
+	Particle: Flash application & Device OS (local)
+11) Mark development devices as such using the console: https://console.particle.io/devices
+		See also https://console.particle.io/devices
+12) Setting up hardware:
+			Use the Particle App (Tinker) to claim and set up credentials, or
+			https://setup.particle.io/
+13) Software reference to the DeviceOS:
+	https://docs.particle.io/reference/device-os/api/introduction/introduction/
+	
+14) Also see: 
+		https://docs.particle.io/getting-started/developer-tools/cli/#working-with-projects-and-libraries
+			
 
 
