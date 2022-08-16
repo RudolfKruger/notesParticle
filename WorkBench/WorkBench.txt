@@ -2,7 +2,7 @@
 See https://docs.particle.io/quickstart/workbench/
 Download the installer and run it.
 
-
+Install the PArticle CLI: https://docs.particle.io/getting-started/developer-tools/cli/
 
 Welcome Screen - click on the Particle Icon
 particle commands: Ctl + shft + P, start typing particle
