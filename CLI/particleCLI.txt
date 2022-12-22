@@ -1,0 +1,15 @@
+To install:
+	https://docs.particle.io/getting-started/developer-tools/cli/
+Reference:
+	https://docs.particle.io/reference/developer-tools/cli/
+	
+Particle login or logout (email + Rendier@0081)
+	> particle login
+
+Create an account or log in, set up Wi-Fi to a device and claim the device to your Particle account.
+	> particle setup
+	
+
+Generates a list of what devices you own, and displays information about their status, including what variables and functions are available
+		> particle list
+	
