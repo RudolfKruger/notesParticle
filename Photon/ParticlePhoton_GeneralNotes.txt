@@ -2,6 +2,7 @@ https://docs.particle.io/datasheets/accessories/legacy-accessories/#power-shield
 
 https://docs.particle.io/
 https://docs.particle.io/quickstart/photon/, 
+https://docs.particle.io/troubleshooting/led/photon/
 
 SET UP THE PHOTON
 ======================
